@@ -1,7 +1,7 @@
 {
   "name": "gencommits",
-  "version": "1.0.1",
-  "description": "A tool for generating conventional commits",
+  "version": "1.1.0",
+  "description": "A tool for generating conventional commits using Google Gemini Ai",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -23,5 +23,9 @@
   },
   "devDependencies": {
     "nodemon": "^3.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Damian-Zsiros-Prog/gencommits.git"
   }
 }
