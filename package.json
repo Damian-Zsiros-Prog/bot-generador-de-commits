@@ -1,0 +1,26 @@
+{
+  "name": "gencommits",
+  "version": "1.0.1",
+  "description": "A tool for generating conventional commits",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "generate": "node src"
+  },
+  "keywords": [
+    "conventional-commits",
+    "commit-generator"
+  ],
+  "bin": {
+    "gencommits": "./src/index.js"
+  },
+  "author": "Damian Zsiros",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.2.0",
+    "dotenv": "^16.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
